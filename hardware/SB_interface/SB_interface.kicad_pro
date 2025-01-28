@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -388,51 +388,51 @@
       "Root"
     ],
     [
-      "0d7d1b73-9368-408e-88c6-4b1eef787aa2",
-      "RelayAndRingDetect"
-    ],
-    [
-      "06a6d3bc-4b42-4132-a52c-77d2485c53ac",
+      "68f1488c-50b9-4246-a0ed-d62d33bd08f7",
       "RelayAndRingDetect1"
     ],
     [
-      "9b434cdf-ad3c-4e29-8c0e-64bd2cc1a962",
+      "cd5bf1ca-4913-499a-ad95-a6efc522edaf",
+      "RelayAndRingDetect0"
+    ],
+    [
+      "4c455e0f-2f75-44d8-9351-ac4c17de5403",
       "RelayAndRingDetect2"
     ],
     [
-      "d884a3a2-ea43-4170-b6bf-4bc0ecc311e7",
+      "04da6c3e-f142-4424-9ae7-5f4ad80b9e64",
       "RelayAndRingDetect3"
     ],
     [
-      "a26efd5d-a40e-4ba3-a18f-b38736210ebc",
+      "4d2fead3-b87b-4542-a4c7-733f85ed8b2b",
       "RelayAndRingDetect4"
     ],
     [
-      "77be1b46-0dac-468d-92ae-7fad22555195",
+      "bc1d0a00-a3b6-43d8-9a36-6cd9b07e4047",
       "RelayAndRingDetect5"
     ],
     [
-      "50f73060-d729-4619-9ab2-b95df3eb28eb",
+      "5a87cade-2221-4272-9aac-ffd7b503276a",
       "RelayAndRingDetect6"
     ],
     [
-      "02088bb7-8b4f-45c1-b478-fbe12f5d9693",
+      "7beaa6f4-34b4-4c80-91ce-5a7475c86d6e",
       "RelayAndRingDetect7"
     ],
     [
-      "8a6ac2f9-8c85-437f-9eb3-d2072b2029d5",
+      "b0d52d74-3991-41e9-96d0-192dcb3ea05c",
       "RelayAndRingDetect8"
     ],
     [
-      "b9380412-15f7-403c-997b-e3f0ee97255f",
+      "7b371750-1eb6-4f54-9083-3d5e67feee11",
       "RelayAndRingDetect9"
     ],
     [
-      "23c63b72-4c73-4a7a-b7bc-ec3406bfb203",
+      "718ce444-f032-46dc-bc79-6b4c8de558e5",
       "RelayAndRingDetect10"
     ],
     [
-      "c4803b46-4353-45c7-a017-886cb3b3838b",
+      "65f428e1-6254-4cfe-ba3e-d888b98d881a",
       "RelayAndRingDetect11"
     ]
   ],
