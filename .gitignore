@@ -32,3 +32,9 @@ fp-info-cache
 
 # Replicate Layout plugin log
 replicate_layout.log
+
+
+# LTSPice files
+*.raw
+*.net
+*.log
