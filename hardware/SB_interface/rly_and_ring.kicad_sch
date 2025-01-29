@@ -3803,7 +3803,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "sb_interface:J104D2C12VDC.36S"
 				(at 16.51 -1.27 0)
 				(effects
 					(font
@@ -5948,7 +5948,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b8bfa8a-522b-4abe-aa81-58ded356dd4f")
 		(property "Reference" "C2"
@@ -5969,7 +5969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.7852 76.2 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e6e72a9-5c5e-4a15-ab2b-f0534415fd73")
 		(property "Reference" "R7"
@@ -6792,7 +6792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.042 60.96 90)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sb_interface:J104D2C12VDC.36S"
 			(at 129.54 21.59 0)
 			(effects
 				(font

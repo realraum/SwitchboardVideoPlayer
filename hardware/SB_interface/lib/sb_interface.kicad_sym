@@ -27,7 +27,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 0 0.635 90)
 			(effects
 				(font
@@ -36,7 +36,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_modularjack.pdf"
 			(at 0 0.635 90)
 			(effects
 				(font
@@ -47,6 +47,24 @@
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61"
 			(at 5.334 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.at/de/products/detail/amphenol-cs-fci/54602-908LF/1001360"
+			(at 0.254 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URLalt" "https://www.neuhold-elektronik.at/steckverbindungen/modularbuchse-8-polig"
+			(at -1.778 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sb_interface:J104D2C12VDC.36S"
 			(at 16.51 -1.27 0)
 			(effects
 				(font
