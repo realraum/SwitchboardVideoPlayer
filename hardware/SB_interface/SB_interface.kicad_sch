@@ -1183,168 +1183,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4148WS"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WS_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Interface_Expansion:MCP23017_SP"
 			(pin_names
 				(offset 1.016)
@@ -2588,6 +2426,277 @@
 				)
 			)
 			(symbol "LED,0805,Yellow_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_JLCPCB-Diodes:Switching,1N4148WS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101110_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--1N4148WS_C2128.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-323 Switching Diodes ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2128"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "2886910"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.012USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes,Switching Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "1N4148WS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rectified Current" "150mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "1.25V@150mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "100V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Recovery Time (trr)" "4ns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Diode Configuration" "Independent Type"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current" "1uA@75V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switching,1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Switching,1N4148WS_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.81)
@@ -5582,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 271.78) (xy 213.36 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee73120-5e1d-4169-bbc8-16d87502c9d8")
+	)
+	(wire
+		(pts
 			(xy 168.91 153.67) (xy 185.42 153.67)
 		)
 		(stroke
@@ -5762,6 +5881,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 279.4) (xy 213.36 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a97fba4-c659-4618-9cdc-9f9e7419c89e")
+	)
+	(wire
+		(pts
 			(xy 88.9 88.9) (xy 88.9 115.57)
 		)
 		(stroke
@@ -5779,6 +5908,16 @@
 			(type default)
 		)
 		(uuid "1caaa42d-e9a3-4fde-9681-22f4c65d0061")
+	)
+	(wire
+		(pts
+			(xy 207.01 269.24) (xy 213.36 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d127ee2-29d3-4b1d-99b5-dc5ba9d4abbb")
 	)
 	(wire
 		(pts
@@ -6069,6 +6208,16 @@
 			(type default)
 		)
 		(uuid "38ac1f59-60d7-4356-8985-64ff347b75fb")
+	)
+	(wire
+		(pts
+			(xy 207.01 266.7) (xy 213.36 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393e6c35-a080-425f-917e-21ecf93000bd")
 	)
 	(wire
 		(pts
@@ -7102,6 +7251,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 274.32) (xy 213.36 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adae1abd-354c-490c-a9ca-51569ee256e3")
+	)
+	(wire
+		(pts
 			(xy 35.56 200.66) (xy 44.45 200.66)
 		)
 		(stroke
@@ -7412,6 +7571,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 276.86) (xy 213.36 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e5acb8-b780-411e-aa0d-12b37bc6e61f")
+	)
+	(wire
+		(pts
 			(xy 44.45 113.03) (xy 50.8 113.03)
 		)
 		(stroke
@@ -7639,6 +7808,16 @@
 			(type default)
 		)
 		(uuid "d87b4787-b85d-425b-aeda-3cdf2199766c")
+	)
+	(wire
+		(pts
+			(xy 207.01 264.16) (xy 213.36 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca0818e-4a82-4b91-9dc7-b4cd587178b7")
 	)
 	(wire
 		(pts
@@ -9421,7 +9600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "AUX"
 			(at 177.292 29.1521 0)
 			(effects
 				(font
@@ -9635,6 +9814,90 @@
 			(project ""
 				(path "/4cb02b16-1366-401e-b585-6b8c16ca1e0c"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 201.93 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0fca007c-4591-47e3-9f5c-917b5ebaaa88")
+		(property "Reference" "J9"
+			(at 201.2188 270.5678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EXTENSION HDR."
+			(at 201.2188 272.9921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 201.93 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 201.93 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "908eac58-2bbb-42ab-915e-fc52bf6ec17d")
+		)
+		(pin "4"
+			(uuid "e74d85f6-4c04-4850-a43d-c48f6bfe084f")
+		)
+		(pin "3"
+			(uuid "fa62ee49-05d2-4691-ad5e-811218e9092f")
+		)
+		(pin "6"
+			(uuid "ca78ac66-faff-4a7b-9406-513274e78af6")
+		)
+		(pin "7"
+			(uuid "c88f9560-c673-4f3f-928f-7865d5d379c8")
+		)
+		(pin "1"
+			(uuid "c68f9a31-4a6e-4b76-8601-83e7f9f53e37")
+		)
+		(pin "2"
+			(uuid "56d8e704-9cef-459f-bcad-99abe2777a69")
+		)
+		(instances
+			(project "SB_interface"
+				(path "/4cb02b16-1366-401e-b585-6b8c16ca1e0c"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13201,7 +13464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "AUDIO"
 			(at 177.292 41.8521 0)
 			(effects
 				(font
@@ -13474,92 +13737,6 @@
 			(project ""
 				(path "/4cb02b16-1366-401e-b585-6b8c16ca1e0c"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 143.51 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce932c39-2175-49a1-80b7-a36207d7e7bc")
-		(property "Reference" "D1"
-			(at 143.51 56.8155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 143.51 59.2398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 143.51 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d072c776-9ef6-45eb-b8e0-530c89031dc6")
-		)
-		(pin "1"
-			(uuid "264a6f9f-6732-4ee7-aed8-ba8171d2a377")
-		)
-		(instances
-			(project "SB_interface"
-				(path "/4cb02b16-1366-401e-b585-6b8c16ca1e0c"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13916,7 +14093,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jack-DC"
+		(property "Value" "12V IN"
 			(at 214.122 55.8221 0)
 			(effects
 				(font
@@ -14202,6 +14379,218 @@
 			(project "SB_interface"
 				(path "/4cb02b16-1366-401e-b585-6b8c16ca1e0c"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Switching,1N4148WS")
+		(at 143.51 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eede56c1-f49c-4171-88a6-9af8148126d1")
+		(property "Reference" "D1"
+			(at 143.51 57.5719 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 143.51 59.6181 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+			(at 143.51 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101110_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--1N4148WS_C2128.pdf"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-323 Switching Diodes ROHS"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2886910"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.012USD"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Switching Diode"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "1N4148WS"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rectified Current" "150mA"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "1.25V@150mA"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "100V"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Recovery Time (trr)" "4ns"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current" "1uA@75V"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feb789d0-5dc6-4e62-b8bc-3172bcfe4a0f")
+		)
+		(pin "2"
+			(uuid "00fb4077-581f-4cd6-ab04-e5699dfa268c")
+		)
+		(instances
+			(project ""
+				(path "/4cb02b16-1366-401e-b585-6b8c16ca1e0c"
+					(reference "D1")
 					(unit 1)
 				)
 			)

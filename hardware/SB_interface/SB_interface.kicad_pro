@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.724,
-          "width": 1.724
+          "drill": 1.1,
+          "height": 2.1,
+          "width": 2.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -87,9 +87,9 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "error",
         "lib_footprint_mismatch": "error",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "error",
+        "missing_courtyard": "ignore",
         "missing_footprint": "error",
         "net_conflict": "error",
         "npth_inside_courtyard": "error",
@@ -131,7 +131,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -647,7 +647,20 @@
       "Net-(OP6-CAT)": "TEL",
       "Net-(OP7-CAT)": "TEL",
       "Net-(OP8-CAT)": "TEL",
-      "Net-(OP9-CAT)": "TEL"
+      "Net-(OP9-CAT)": "TEL",
+      "Net-(Q1-D)": "PWR",
+      "Net-(Q10-D)": "PWR",
+      "Net-(Q13-D)": "PWR",
+      "Net-(Q16-D)": "PWR",
+      "Net-(Q19-D)": "PWR",
+      "Net-(Q22-D)": "PWR",
+      "Net-(Q25-D)": "PWR",
+      "Net-(Q28-D)": "PWR",
+      "Net-(Q31-D)": "PWR",
+      "Net-(Q34-D)": "PWR",
+      "Net-(Q37-D)": "PWR",
+      "Net-(Q4-D)": "PWR",
+      "Net-(Q7-D)": "PWR"
     },
     "netclass_patterns": []
   },
